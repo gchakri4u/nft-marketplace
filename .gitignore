@@ -1,0 +1,8 @@
+contracts/.placeholder
+test/.placeholder
+build
+node_modules
+deploy_mnemonic.key
+bin/contracts
+build/contracts
+.gitkeep
