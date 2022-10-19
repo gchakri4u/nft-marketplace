@@ -48,6 +48,8 @@ contract BidNFT is ERC721, ERC721Burnable, Ownable {
         uint256 _minBidPrice
     );
 
+    //TODO: onlyOwner means only the contract deployer can mint or create tokens. We want anyone to create a token and 
+    // and put it in marketplace
     //Only Owner Can Mint NFT's
     function safeMint(string memory tokenURI, uint256 minBidPrice)
         public
